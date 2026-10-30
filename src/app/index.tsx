@@ -82,6 +82,7 @@ export default function SignUpScreen() {
     <ScrollView
       contentContainerStyle={styles.container}
       keyboardShouldPersistTaps="handled"
+      automaticallyAdjustKeyboardInsets={true}
     >
       <Text style={styles.title}>Sign Up</Text>
       <Text style={styles.subtitle}>Enter your information below.</Text>
@@ -114,6 +115,7 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     justifyContent: "center",
     padding: 24,
+    paddingBottom: 48,
     backgroundColor: "#FFFFFF",
   },
   title: {
